@@ -144,13 +144,31 @@ body{font-family:var(--fb);background:var(--ww);color:var(--tp);line-height:1.7;
 
 /* ── HERO ── */
 #home{min-height:100vh;background:linear-gradient(148deg,#ffffff 0%,#eef5fb 45%,#ddeaf5 100%);position:relative;display:flex;flex-direction:column;overflow:hidden}
-#home::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 65% 55% at 82% 28%,rgba(110,163,193,.18) 0%,transparent 60%),radial-gradient(ellipse 45% 50% at 12% 75%,rgba(58,91,160,.07) 0%,transparent 55%);pointer-events:none;z-index:0}
 /* Dark gradient at top so nav text stays readable over light hero */
 .hero-nav-shade{position:absolute;top:0;left:0;right:0;height:170px;background:linear-gradient(180deg,rgba(10,15,30,.54) 0%,rgba(10,15,30,.18) 55%,transparent 100%);pointer-events:none;z-index:1}
-/* Decorative soft blobs */
-.hero-deco{position:absolute;border-radius:50%;pointer-events:none}
-.hero-deco-1{width:580px;height:580px;top:-150px;right:-130px;background:radial-gradient(circle,rgba(110,163,193,.16) 0%,rgba(58,91,160,.07) 55%,transparent 80%);z-index:0}
-.hero-deco-2{width:320px;height:320px;bottom:60px;right:180px;background:radial-gradient(circle,rgba(247,200,115,.13) 0%,transparent 70%);z-index:0}
+/* ── AURORA BACKGROUND ── */
+.aurora-bg{position:absolute;inset:-10px;overflow:hidden;pointer-events:none;z-index:0}
+.aurora-core{
+  position:absolute;inset:0;opacity:.5;will-change:transform;
+  filter:blur(10px) invert(1);
+  background-image:
+    repeating-linear-gradient(100deg,#fff 0%,#fff 7%,transparent 10%,transparent 12%,#fff 16%),
+    repeating-linear-gradient(100deg,#6ea3c1 10%,#b8cde3 15%,#edf3f8 20%,#f7c873 25%,#4a6db5 30%);
+  background-size:300% 200%,200% 100%;
+  background-position:50% 50%,50% 50%;
+  mask-image:radial-gradient(ellipse at 100% 0%,black 10%,transparent 70%);
+  -webkit-mask-image:radial-gradient(ellipse at 100% 0%,black 10%,transparent 70%);
+  animation:auroraMove 20s linear infinite}
+.aurora-core::after{
+  content:'';position:absolute;inset:0;
+  background-image:
+    repeating-linear-gradient(100deg,#fff 0%,#fff 7%,transparent 10%,transparent 12%,#fff 16%),
+    repeating-linear-gradient(100deg,#6ea3c1 10%,#b8cde3 15%,#edf3f8 20%,#f7c873 25%,#4a6db5 30%);
+  background-size:200% 100%,100% 50%;
+  background-attachment:fixed;
+  mix-blend-mode:difference;
+  animation:auroraMove 20s linear infinite}
+@keyframes auroraMove{from{background-position:50% 50%,50% 50%}to{background-position:350% 50%,350% 50%}}
 /* Flex layout — hero body grows, stats bar anchors at bottom */
 .hero-body{flex:1;display:flex;align-items:center;position:relative;z-index:2}
 .hero-inner{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center;padding:130px 0 80px;width:100%}
@@ -202,7 +220,9 @@ body{font-family:var(--fb);background:var(--ww);color:var(--tp);line-height:1.7;
 .stat-lbl{font-size:.7rem;color:rgba(255,255,255,.48);text-transform:uppercase;letter-spacing:.08em}
 /* ── HERO DARK MODE ── */
 .dark #home{background:linear-gradient(150deg,var(--t800) 0%,var(--t900) 55%,#0a0d14 100%)}
-.dark .hero-nav-shade,.dark .hero-deco{display:none}
+.dark .hero-nav-shade{display:none}
+.dark .aurora-core{filter:blur(10px);opacity:.4;background-image:repeating-linear-gradient(100deg,#000 0%,#000 7%,transparent 10%,transparent 12%,#000 16%),repeating-linear-gradient(100deg,#6ea3c1 10%,#b8cde3 15%,#edf3f8 20%,#f7c873 25%,#4a6db5 30%)}
+.dark .aurora-core::after{background-image:repeating-linear-gradient(100deg,#000 0%,#000 7%,transparent 10%,transparent 12%,#000 16%),repeating-linear-gradient(100deg,#6ea3c1 10%,#b8cde3 15%,#edf3f8 20%,#f7c873 25%,#4a6db5 30%)}
 .dark .hero-h1{color:#fff}
 .dark .hero-sub{color:rgba(255,255,255,.65)}
 .dark .hero-tag{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14);color:var(--t200);font-weight:400}
@@ -405,9 +425,8 @@ footer{background:var(--t900);padding:60px 0 28px}
 <section id="home" aria-labelledby="hero-h1">
   <!-- Shade keeps nav text white over the light hero background -->
   <div class="hero-nav-shade" aria-hidden="true"></div>
-  <!-- Soft decorative blobs -->
-  <div class="hero-deco hero-deco-1" aria-hidden="true"></div>
-  <div class="hero-deco hero-deco-2" aria-hidden="true"></div>
+  <!-- Animated aurora background -->
+  <div class="aurora-bg" aria-hidden="true"><div class="aurora-core"></div></div>
 
   <!-- Main hero body: text left + photos right -->
   <div class="hero-body">
