@@ -184,6 +184,7 @@ section{padding:88px 0}
 #trials{background:var(--w50)}
 .trials-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
 .trial-card{background:var(--wh);border-radius:var(--rmd);padding:32px;border:1.5px solid var(--bd);box-shadow:var(--ssm);transition:var(--ease);position:relative;overflow:hidden}
+.trial-img{width:100%;height:160px;object-fit:contain;object-position:center;margin-bottom:20px;border-radius:8px;background:var(--t50);padding:12px}
 .trial-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--t600),var(--a500))}
 .trial-card:hover{box-shadow:var(--smd);transform:translateY(-4px);border-color:var(--t400)}
 .trial-status{display:inline-flex;align-items:center;gap:6px;background:rgba(37,211,102,.1);border:1px solid rgba(37,211,102,.3);color:#16a34a;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;padding:4px 12px;border-radius:100px;margin-bottom:16px}
@@ -519,7 +520,7 @@ footer{background:var(--t900);padding:60px 0 28px}
       </article>
 
       <article class="team-card fi" style="transition-delay:.2s" aria-labelledby="tm5">
-        <div class="team-avatar team-avatar-initials"><span>ZV</span></div>
+        <div class="team-avatar"><img src="assets/images/Staff_Zelna.jpg" alt="Sr. Zelna Vermooten"></div>
         <div class="team-role-badge">Site Manager / SSC</div>
         <h3 class="team-name" id="tm5">Sr. Zelna Vermooten</h3>
         <p class="team-quals">Registered Nurse<br>Clinical trials since 2001</p>
@@ -527,7 +528,7 @@ footer{background:var(--t900);padding:60px 0 28px}
       </article>
 
       <article class="team-card fi" style="transition-delay:.25s" aria-labelledby="tm6">
-        <div class="team-avatar"><img src="assets/images/No_face.jpg" alt="Clarisa Snyman"></div>
+        <div class="team-avatar"><img src="assets/images/Research_Clarisa.jpg" alt="Clarisa Snyman"></div>
         <div class="team-role-badge">Clinical Trial Assistant</div>
         <h3 class="team-name" id="tm6">Clarisa Snyman</h3>
         <p class="team-quals">At site since March 2022</p>
@@ -556,6 +557,7 @@ footer{background:var(--t900);padding:60px 0 28px}
     </div>
     <div class="trials-grid">
       <article class="trial-card fi" aria-labelledby="tr1">
+        <img src="assets/images/djw_librexia.png" alt="Librexia study logo" class="trial-img">
         <div class="trial-status">
           <span class="trial-status-dot" aria-hidden="true"></span>
           Currently Enrolling
