@@ -122,7 +122,8 @@ Dr Nosipho is a dedicated and patient-centred doctor who believes in delivering 
 ---
 
 ## Page: DJW Research
-*URL: https://www.krugersdorpmedicalcentre.co.za/djw-research*
+*URL: https://www.krugersdorpmedicalcentre.co.za/djw-research/*
+*Last refreshed: 2026-05-04*
 
 ### Navigation Menu (DJW Research site)
 DJW Research Home | About DJW Research | DJW Research Staff | Current Research | Contact Us | Krugersdorp Medical Centre | Ruimsig Medical Centre | Dr. Jurgens' Blog
@@ -132,57 +133,68 @@ DJW Research at Krugersdorp Medical Centre
 
 ### About DJW Research
 
-DJW Navorsing (Research) started in 2001 with Dr Jaco Jurgens as Principal Investigator and a Study Coordinator.
+DJW Navorsing (Research) was established in 2001 with Dr. Jaco Jurgens as Principal Investigator and one Study Coordinator. The organisation trained multiple doctors as Sub-Investigators and secured Dispensing Licenses for qualified staff.
 
-The organisation trained multiple doctors as Sub-Investigators and obtained Dispensing Licenses. The site connects with Krugersdorp Medical Centre's general practice, recruiting from that practice, neighbouring facilities, pharmacies, and local clinics.
+> "The Site is linked to the General Practice of Krugersdorp Medical Centre."
 
-"Our team: Dr Jurgens, PI. Dr Vermooten, Sub-I and dispenser. Dr Merle Potgieter, Sub-I and dispenser, and Dr Ann v Staden, Sub-I."
+**Recruitment:** Primary recruitment through the associated general practice; secondary recruitment from neighbouring medical facilities, pharmacies, and local clinics.
 
-Sr Zelna Vermooten serves as Site Manager and SSC. Jordan joined as Clinical Trial Assistant.
+> "A small, but motivated group, who conducts studies with passion and dedication."
 
-"A small, but motivated group, who conducts studies with passion and dedication."
+**Current team:**
+- Dr. Jurgens — Principal Investigator (PI)
+- Dr. Vermooten — Sub-Investigator and Dispenser
+- Dr. Merle Potgieter — Sub-Investigator and Dispenser
+- Dr. Ann van Staden — Sub-Investigator
+- Sr. Zelna Vermooten — Site Manager and SSC
+- Jordan — Clinical Trial Assistant
+- Clarisa Snyman — Clinical Trial Assistant
 
-### Facilities
+### Facilities & Equipment
 
 - Calibrated centrifuge
 - Electronic scale
-- -20°C freezer
-- 2–8°C fridge
-- Blood pressure meters
-- Emergency trolley / emergency equipment
-- Dedicated staff emails and computers
-- Fibre internet
-- Backup generator
-- UPS systems
-- 24/7 temperature monitoring
+- −20°C freezer
+- 2–8°C refrigeration
+- Manual and electronic blood pressure meters
+- Emergency trolley (SAHPRA compliant)
+- Dedicated staff email addresses and computers
+- Fibre internet connection
+- Backup generator and UPS systems
+- 24/7 central temperature monitoring
 
 ### Staff Profiles
 
 **Dr. Jaco Jurgens — Principal Investigator**
 MBChB (Bloemfontein) 1994, MBL (Unisa) 2002
-Family physician with interests in Diabetes, Mental Health (ADHD), and Infectious Diseases. Involved with clinical trials since 2000; conducted more than 50 trials at the site.
+Family physician with special interests in Diabetes Mellitus, Mental Health (ADHD), and Infectious Diseases. Involved with clinical trials since 2000; conducted more than 50 trials at the site.
 
 **Dr. Merle Potgieter — Sub-Investigator and Dispenser**
-Degree in medicine (Pretoria) 2018
-General practitioner with a special interest in Psychiatry. Diploma in Mental Health (CMSA) 2021. Holds GCP certificate and Dispensing License; currently involved in various Clinical Trials.
+Degree in medicine (Pretoria) 2018; Diploma in Mental Health (CMSA) 2021
+Special interest in Psychiatry. Holds GCP certificate and Dispensing License; currently involved in various clinical trials.
 
 **Dr. Hendrik Vermooten — Sub-Investigator and Backup Dispenser**
-Specialist Physician, private practice since 1999.
-As Principal Investigator he has been conducting Clinical Trials since 2001, currently in the role of Sub-Investigator and backup Dispenser at DJW Navorsing.
+Specialist Physician in private practice since 1999.
+Has been conducting clinical trials since 2001, currently serving as Sub-Investigator and backup Dispenser at DJW Navorsing.
+
+**Dr. Ann van Staden — Sub-Investigator**
+BSc and MBBCh (Wits). Multiple life support and surgical certifications.
 
 **Sr. Zelna Vermooten — Site Manager / SSC**
-Registered Nurse, involved in Clinical Trials since 2001.
-As Site Manager she is responsible for the day-to-day running of all the Clinical Trials at site. Responsibilities include: creating and managing documentation, scheduling patient visits, processing samples, performing clinical procedures, data entry, and managing invoicing.
+Registered Nurse, involved in clinical trials since 2001.
+Responsible for the day-to-day running of all clinical trials at site. Responsibilities include: creating source documents and spreadsheets, scheduling patient visits, processing samples, performing clinical procedures, data entry, and managing invoicing.
 
 **Clarisa Snyman — Clinical Trial Assistant**
 Joined the site in March 2022. Assists with all administrative tasks at site.
 
 **Jordan — Clinical Trial Assistant**
-(Additional CTA, further details not listed on site.)
+Clinical Trial Assistant. Further details not listed on site.
 
 ### Current Research
 
-- Librexia Atrial Fibrillation (study currently listed)
+| Study | Condition | Resources |
+|---|---|---|
+| Librexia | Atrial Fibrillation | [www.stopafib.org](http://www.stopafib.org) |
 
 ### Contact Information (DJW Research)
 
@@ -410,13 +422,14 @@ MBChB (Wits), PDM (Wits), BHSc Biomedical Science (Wits)
 
 ### DJW Research (Clinical Trials Unit)
 - Operating since 2001
-- Principal Investigator: Dr. Jaco Jurgens
-- Sub-Investigators: Dr. Hendrik Vermooten, Dr. Merle Potgieter, Dr. Ann van Staden
-- Site Manager: Sr. Zelna Vermooten (RN, since 2001)
+- Principal Investigator: Dr. Jaco Jurgens (PI since 2000, 50+ trials conducted)
+- Sub-Investigators: Dr. Hendrik Vermooten (since 2001), Dr. Merle Potgieter, Dr. Ann van Staden
+- Site Manager / SSC: Sr. Zelna Vermooten (RN, since 2001)
 - Clinical Trial Assistants: Clarisa Snyman (since March 2022), Jordan
-- 50+ clinical trials conducted
-- Current study: Librexia Atrial Fibrillation
+- Current study: Librexia — Atrial Fibrillation (resources: www.stopafib.org)
 - Research email: djwnavorsing@outlook.com
+- SAHPRA-compliant emergency equipment on site
+- 24/7 central temperature monitoring; backup generator + UPS
 
 ### Condition Information Pages
 - Acne therapy: A methodologic review (full abstract available)
